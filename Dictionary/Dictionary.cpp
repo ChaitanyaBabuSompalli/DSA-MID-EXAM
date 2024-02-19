@@ -14,6 +14,7 @@ class Dictionary {
 private:
     TreeNode* root;
     int size; // Size of the BST
+    //Changes
 
     // Helper function to insert a word and its definition into the BST
     TreeNode* insertHelper(TreeNode* node, const std::string& word, const std::string& definition) {
